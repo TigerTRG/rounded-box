@@ -1,0 +1,37 @@
+.img_colorize_right {
+  transition: transform 2s, filter 1.5s ease-in-out;
+  filter: grayscale(0);
+  cursor: pointer;
+  transform-origin: top;
+
+  &:hover {
+    filter: grayscale(100%);
+    transform: scale(1);
+    
+  }
+}
+
+.img_colorize_left {
+  transition: transform 2s, filter 1.5s ease-in-out;
+  filter: grayscale(0);
+  cursor: pointer;
+  transform-origin:  top;
+
+  &:hover {
+    filter: grayscale(100%);
+    transform: scale(1);
+    
+  }
+}
+// .text_resize_right{
+//       width: 100px;
+//       height: 100px;
+//       transform: scale(0.8);
+//     }
+
+
+// .img_colorize_right:has(.text_resize_right:hover) {
+//   width: 100px;
+//       height: 100px;
+//       transform: scale(0.8);
+// }

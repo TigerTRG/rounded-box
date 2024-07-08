@@ -1,0 +1,28 @@
+.parent {
+  transition: 1s;
+  //background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 100%);
+  background: radial-gradient(circle, rgba(255,255,255,0) 0%, #f5e8d0 0%, #DDBA8A 100%);
+
+}
+
+.btn_header{
+  transform: scale(1);
+  transition: 0.5s;
+  &:hover {
+    transition: 0.5s;
+    transform: scale(1.25);
+  }
+}
+
+.logo_header{
+  height: 132px;
+  transition: 1s;
+  
+}
+
+.parent:has(.logo_header:nth-of-type(2):hover) {
+    height: 120px;
+    transition: 1s ;
+    // background: rgb(240, 240, 240);
+    background: #f5e8d0;
+}
