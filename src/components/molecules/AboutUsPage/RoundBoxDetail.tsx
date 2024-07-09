@@ -179,7 +179,7 @@ const RoundBoxDetail = () => {
           className="flex w-full cursor-pointer"
         >
           {images.map((item: any) => (
-            <div key={item.id} className="min">
+            <div key={item.id} className="">
               <Image
                 className="h-full px-10"
                 src={item.image}
@@ -205,7 +205,7 @@ const RoundBoxDetail = () => {
         <div className="w-full h-full relative z-10 overflow-hidden ">
           <div className={`${styles.img_colorize_left} w-full h-full`}>
             <Image
-              src="/images/Homepage/Logo_round_box.png"
+              src="/images/AllRoundedBox/Rounded_box_47.jpeg"
               alt="tube"
               width={1500}
               height={400}

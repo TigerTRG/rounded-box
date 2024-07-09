@@ -99,12 +99,12 @@
 
 
 .slick-slider .slick-dots {
-  position: absolute;
-  bottom: 25px;
+  position: relative;
+  bottom: 0px;
   display: flex !important;
   align-items: center;
   justify-content: center;
-  
+  margin-bottom: 20px;
 }
 .slick-slider .slick-dots li {
   display: flex;
