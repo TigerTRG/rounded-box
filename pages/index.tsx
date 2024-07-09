@@ -50,7 +50,7 @@ const FirstPage = () => {
     <div>
       <HomeLayout>
         <div className="m-10">Top Detail Layout</div>
-        <div className="flex flex-col w-full items-center">
+        {/* <div className="flex flex-col w-full items-center">
           <Slider {...settings} className="flex w-[80%]">
             {images.map((item: any) => (
               <div key={item.id} className="px-5">
@@ -64,7 +64,7 @@ const FirstPage = () => {
               </div>
             ))}
           </Slider>
-        </div>
+        </div> */}
         {/* <div className="Register ml-10 flex flex-col">
           <div></div>
         </div> */}
