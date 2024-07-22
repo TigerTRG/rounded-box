@@ -105,7 +105,7 @@ const RoundBoxDetail = () => {
         </div>
         <div className="bg-light-brown text-center flex flex-col items-center p-20">
           <Button
-            className={`${styles.btn_header} text-black h-full w-full`}
+            className={`text-black h-full w-full`}
             sx={{ "&.MuiButton-root:hover": { bgcolor: "transparent" } }}
             startIcon={
               <Facebook style={{ minWidth: "20px", minHeight: "20px" }} />
@@ -114,7 +114,7 @@ const RoundBoxDetail = () => {
             Facebook
           </Button>
           <Button
-            className={`${styles.btn_header} text-black h-full w-full`}
+            className={` text-black h-full w-full`}
             sx={{ "&.MuiButton-root:hover": { bgcolor: "transparent" } }}
             startIcon={
               <Instagram style={{ minWidth: "20px", minHeight: "20px" }} />
@@ -123,7 +123,7 @@ const RoundBoxDetail = () => {
             Instagram
           </Button>
           <Button
-            className={`${styles.btn_header} text-black h-full w-full`}
+            className={` text-black h-full w-full`}
             sx={{ "&.MuiButton-root:hover": { bgcolor: "transparent" } }}
             startIcon={
               <Image
@@ -137,7 +137,7 @@ const RoundBoxDetail = () => {
             Line OA
           </Button>
           <Button
-            className={`${styles.btn_header} text-black h-full w-full`}
+            className={` text-black h-full w-full`}
             sx={{ "&.MuiButton-root:hover": { bgcolor: "transparent" } }}
             startIcon={
               <Image
@@ -179,7 +179,7 @@ const RoundBoxDetail = () => {
           className="flex w-full cursor-pointer"
         >
           {images.map((item: any) => (
-            <div key={item.id} className="">
+            <div key={item.id}>
               <Image
                 className="h-full px-10"
                 src={item.image}

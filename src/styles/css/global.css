@@ -23,6 +23,7 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    background-color: #e9dfd9;
   }
   /*
     5. Improve media defaults
@@ -53,14 +54,38 @@
   html *
   {
     font-size: 20px !important;
-    color: #000 !important;
-    font-family: "bebasRegular" !important;
+    font-family: "promptRegular" !important;
   }
 
   @font-face {
     font-family: "bebasRegular";
     src: url("/assets/fonts/Bebas-Regular.ttf") format("woff2"),
       url("/assets/fonts/Bebas-Regular.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "promptRegular";
+    src: url("/assets/fonts/Prompt-Regular.ttf") format("woff2"),
+      url("/assets/fonts/Prompt-Regular.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "promptMedium";
+    src: url("/assets/fonts/Prompt-Medium.ttf") format("woff2"),
+      url("/assets/fonts/Prompt-Medium.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "helRoundedBold";
+    src: url("/assets/fonts/HelveticaRounded-Bold.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;

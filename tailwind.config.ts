@@ -16,7 +16,10 @@ const config: Config = {
       },
     },
     fontFamily: {
-      "bebas-regular": ["bebasRegular"]
+      "bebas-regular": ["bebasRegular"],
+      "prompt-regular": ["promptRegular"],
+      "prompt-medium": ["promptMedium"],
+      "hel-rounded-bold": ["helRoundedBold"]
     },
     colors: {
       "black" : "#000000",
@@ -24,7 +27,13 @@ const config: Config = {
       "light-brown" : "#f5e8d0",
       "brown": "#ddba8a",
       "blue": "#3a6c7e",
-      "dark-blue": "#00303c"
+      "dark-blue": "#00303c",
+      "dark-green": "#1e4235",
+      "orange": "#994703",
+      "light-gray-bg": "#e9dfd9",
+      "gray":"#C3C3C3",
+      "yellow": "#FCD574",
+      "red": "#e65265"
     },
   },
   plugins: [],
