@@ -9,7 +9,6 @@ interface IProps {
 const HomeLayout = ({ children }: IProps) => (
   <div>
     <Header />
-    <div className="mb-[16vw]" />
     {children}
     <Footer />
   </div>

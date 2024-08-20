@@ -18,8 +18,6 @@ const CustomMaterialPackage = () => {
   const [exteriorColor, setExteriorColor] = useState<number>(0);
   const [fillingColor, setFillingColor] = useState<number[]>([0, 0]);
 
-  console.log("fill", fillingColor);
-
   return (
     <div className="box-categories flex flex-row">
       <div className="flex flex-col gap-4">

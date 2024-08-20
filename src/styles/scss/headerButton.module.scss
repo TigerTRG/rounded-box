@@ -9,11 +9,11 @@
   position: absolute;
   //transform: scale(1);
   transition: 0.5s;
-  border-radius: 30px;
+  border-radius: 3vw;
   height: 50px;
   width: 100%;
   background: #994703;
-  font-size: 24px !important;
+  font-size: 1.75vw !important;
   text-transform: none;
   line-height: 40px;
   &:hover {
@@ -21,12 +21,12 @@
     position: absolute;
     transition: 0.5s;
     // transform: scale(1.25);
-    height: 100px;
+    height: 80px;
     width: 100%;
-    border-radius: 50px;
+    border-radius: 4.5vw;
     // font-size: 50px;
     background: #994703;
-    font-size: 36px !important;
+    font-size: 2.5vw !important;
   }
 }
 
@@ -35,28 +35,27 @@
     position: absolute;
     transition: 0.5s;
     // transform: scale(1.25);
-    height: 100px;
+    height: 80px;
     width: 100%;
-    border-radius: 50px;
+    border-radius: 4.5vw;
     // font-size: 50px;
     background: #994703;
-    font-size: 36px !important;
+    font-size: 2.5vw !important;
 }
 
 .btn_header_language{
   position: absolute;
-  top: 35px;
   transition: 0.5s;
-  border-radius: 40px;
-  height: 90px;
-  width: 160px;
+  border-radius: 4.5vw;
+  height: 80px;
+  width: 100%;
   background: #1e4235;
-  font-size: 24px !important;
+  font-size: 1.75vw !important;
   color: #fcd574 !important;
   line-height: 40px;
   &:hover {
     transition: 0.5s;
-    font-size: 30px !important;
+    font-size: 2vw !important;
     background: #1e4235;
   }
 }

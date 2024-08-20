@@ -92,15 +92,15 @@
   }
 
   img.hover-zoom{
-    transform-origin:  top;
-    position: fixed;
+    /* transform-origin:  top;
+    position: fixed; */
     transition: 1s;
     transform: scale(1);
   }
 
   img.hover-zoom:hover {
-    transform-origin:  top;
-    position: fixed;
+    /* transform-origin:  top;
+    position: fixed; */
     transition: 1s;
     transform: scale(1.25);
   }

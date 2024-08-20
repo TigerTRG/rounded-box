@@ -3,7 +3,7 @@ import RoundBoxDetail from "../molecules/AboutUsPage/RoundBoxDetail";
 
 const AboutUs = () => {
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full pt-12">
       {/* <div className="ml-5 m-10 text-center">
         <span className="!text-[30px]">About Us</span>
       </div> */}

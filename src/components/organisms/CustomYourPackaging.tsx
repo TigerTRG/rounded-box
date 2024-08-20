@@ -6,7 +6,7 @@ import Registration from "../molecules/HomePage/Registration";
 // ml-5 m-10
 const CustomYourPackaging = () => {
   return (
-    <div className="w-full h-full ">
+    <div className="w-full h-full pt-12">
       <div className=" text-center flex items-center justify-center bg-dark-blue w-full h-[170px] mt-[-60px] mb-16">
         <span className="!text-[30px] !text-white mt-[10px]">
           Customize your packaging

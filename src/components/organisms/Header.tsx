@@ -15,9 +15,8 @@ import { useRouter } from "next/router";
 
 const Header = () => {
   const [holdTitle, setHoldTitle] = useState<string>("");
-
   const { pathname } = useRouter();
-  console.log(pathname);
+
   useEffect(() => {
     if (pathname === "/") {
       setHoldTitle("aboutUs");
@@ -29,9 +28,10 @@ const Header = () => {
   }, [pathname]);
 
   return (
-    <div className={` flex w-full h-[140px] fixed top-0 z-[9999] `}>
+    // <div className={` flex w-full h-[140px] fixed top-0 z-[9999] `}></div>
+    <div className={` flex w-full h-[110px] md:h-[140px] `}>
       <div
-        className={`w-[calc(100%-240px)] grid grid-cols-[1fr_1.5fr_1fr] gap-10 p-20 pt-14 pr-10 `}
+        className={`w-full grid grid-cols-[1fr_1.5fr_1fr_0.75fr] gap-[3vw] pt-[3vw] p-[4.15vw] `}
       >
         <Link href="/" className="w-full h-full relative">
           <Button
@@ -92,6 +92,19 @@ const Header = () => {
             Custom tube
           </Button>
         </Link>
+        <div className="w-full h-full relative">
+          <Button
+            className={`${styles.btn_header_language} !font-hel-rounded-regular`}
+            // sx={{ "&.MuiButton-root:hover": { bgcolor: "transparent" } }}
+            // startIcon={
+            //   <ShoppingBagOutlined
+            //     style={{ minWidth: "20px", minHeight: "20px" }}
+            //   />
+            // }
+          >
+            EN/TH
+          </Button>
+        </div>
       </div>
       {/* <div className={`${styles.logo_header} w-[20%] flex justify-center`}>
       <Link href="/" className="w-full h-full flex justify-center">
@@ -118,7 +131,7 @@ const Header = () => {
       </Button>
       
     </div> */}
-      <div className="w-[200px] grid grid-cols-1 justify-center items-center p-10 pr-20 relative">
+      {/* <div className="w-[200px] relative">
         <Button
           className={`${styles.btn_header_language} !font-hel-rounded-regular`}
           // sx={{ "&.MuiButton-root:hover": { bgcolor: "transparent" } }}
@@ -130,7 +143,7 @@ const Header = () => {
         >
           EN/TH
         </Button>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -90,78 +90,81 @@ const FirstPage = () => {
   return (
     <div>
       <HomeLayout>
-        <div className="mt-10 mx-20 mb-36 h-full grid gap-10 grid-cols-[1.5fr_1.5fr_1fr] items-center">
-          <Image
-            alt="roundedbox"
-            src="/images/RoundedTextIcon/Rounded_text_4_cropped_nobg.png"
-            width={700}
-            height={700}
-          />
-          <Image
-            alt="papertube"
-            src="/images/AllRoundedBox/Rounded_box_47_cropped.jpg"
-            width={1400}
-            height={1400}
-          />
-          <Image
-            alt="papertube"
-            src="/images/AllRoundedBox/Tubes_cropped.jpg"
-            width={1400}
-            height={1400}
-          />
+        <div className="w-full flex justify-center">
+          <div className="m-[4vw] h-full grid gap-[3.5vw] grid-cols-[1fr_1fr_1fr] justify-items-center items-center max-w-[80vw]">
+            <Image
+              alt="roundedbox"
+              src="/images/RoundedTextIcon/Rounded_text_4_cropped_nobg.png"
+              width={700}
+              height={700}
+              className="hover-zoom cursor-pointer"
+            />
+            <Image
+              alt="papertube"
+              src="/images/AllRoundedBox/Rounded_box_47_cropped.jpg"
+              width={350}
+              height={350}
+              className="hover-zoom cursor-pointer rounded-[1.5vw]"
+            />
+            <Image
+              alt="papertube"
+              src="/images/AllRoundedBox/Tubes_cropped.jpg"
+              width={350}
+              height={350}
+              className="hover-zoom cursor-pointer rounded-[1.5vw]"
+            />
+          </div>
         </div>
-        <div className="w-full h-[1400px] relative">
-          <Image
-            alt="papertube"
-            src="/images/AllRoundedBox/Made_tube_2.jpg"
-            width={1400}
-            height={1400}
-            className="max-w-[450px] z-50 absolute bottom-[160px] left-[150px]"
-          />
-          <div className="w-full h-[800px] bg-[#994703] p-20 relative">
+        <div className="w-full h-[66vw] flex flex-col items-center relative ">
+          <div className="w-full max-w-[80vw] h-[36vw] bg-[#994703] p-[6vw] relative ">
             <Image
               alt="papertube"
               src="/images/AllRoundedBox/Tubes_2.png"
               width={1400}
               height={1400}
-              className="max-w-[600px] absolute right-0 top-0"
+              className="max-w-[30vw] absolute right-0 top-0"
             />
-            <div className="grid grid-cols-[1.8fr_1fr] gap-32 items-center w-full h-full">
-              <span className="!text-[32px] !text-light-gray-bg">
+            <div className="grid grid-cols-[1fr_1fr] gap-[7.5vw] items-center w-full h-full">
+              <span className="!text-[1.6vw] !text-light-gray-bg">
                 เราคือผู้ผลิต แพ็คเกจจิ้งทรงกระบอก กระป๋องกลม กล่องกลม ครบวงจร
                 ออกแบบ ขึ้นตัวอย่าง ผลิต จนส่งถึงมือลูกค้า ในราคาที่เป็นมิตร
                 ด้วยประสบการณ์กว่า 35ปี จากอุตสาหกรรมการผลิตแกนกระดาษ
                 พัฒนาต่อยอดมาสู่ บรรจุภัณฑ์แกนกระดาษ มาตรฐานสากล ระดับโลก
               </span>
-              <div className="flex w-full h-full items-end flex-row justify-end">
-                <Image
-                  alt="papertube"
-                  src="/images/AllRoundedBox/Made_tube_cropped.jpg"
-                  width={1400}
-                  height={1400}
-                  className="max-w-[450px] z-50"
-                />
-              </div>
+              <Image
+                alt="papertube"
+                src="/images/AllRoundedBox/Made_tube_cropped.jpg"
+                width={1400}
+                height={1400}
+                className="max-w-[24vw] z-50 absolute rounded-[1.5vw] top-[16vw] right-[6vw]"
+              />
             </div>
           </div>
-          <div className="w-full h-[600px] bg-[#1e4235] p-20 relative">
+          <div className="w-full max-w-[80vw] h-[30vw] bg-[#1e4235] p-[6vw] relative">
             <Image
               alt="papertube"
               src="/images/AllRoundedBox/Tubes_2.png"
               width={1400}
               height={1400}
-              className="max-w-[600px] absolute left-0 bottom-0 rotate-180"
+              className="max-w-[30vw] absolute left-0 bottom-0 rotate-180"
             />
             <Image
               alt="papertube"
               src="/images/RoundedIcon/Rounded_icon_7.png"
               width={700}
               height={700}
-              className="max-w-[700px] absolute bottom-[376px] left-[50%] translate-x-[-45%]"
+              className="max-w-[30vw] absolute bottom-[20vw] left-[50%] translate-x-[-50%]"
             />
-            <div className="grid grid-cols-[1.8fr_1fr] gap-32 items-center w-full h-full">
+            <Image
+              alt="papertube"
+              src="/images/AllRoundedBox/Made_tube_cropped.jpg"
+              width={1400}
+              height={1400}
+              className="max-w-[24vw] z-50 absolute rounded-[1.5vw] bottom-[12vw] left-[6vw]"
+            />
+            <div className="grid grid-cols-[1fr_1fr] gap-[7.5vw] items-center w-full h-full">
               <div />
-              <span className="!text-[32px] !text-light-gray-bg">
+              <span className="!text-[1.6vw] !text-light-gray-bg">
                 ไลน์การผลิตในไทยที่แรกและที่เดียว
                 รับให้คำปรึกษาเรื่องแพคเกจจิ้งทรงกระบอก ไม่มีค่าใช้จ่าย
                 เสริมสร้างแบรนด์สินค้า
@@ -171,30 +174,30 @@ const FirstPage = () => {
           </div>
         </div>
         <div className="w-full h-full">
-          <div className="header-catalog mx-20 mt-10 mb-20 flex flex-row items-center gap-10 justify-center">
+          <div className="header-catalog mx-[4.2vw] my-[3vw] flex flex-row items-center gap-[3vw] justify-center">
             <Image
               alt="roundedbox"
               src="/images/RoundedIcon/Rounded_icon_4_cropped_nobg.png"
-              width={250}
-              height={250}
-              className=""
+              width={200}
+              height={200}
+              className="w-[12vw]"
             />
-            <span className="!font-hel-rounded-bold !text-dark-blue !text-[200px] relative ">
+            <span className="!font-hel-rounded-bold !text-dark-blue !text-[10vw] relative ">
               Catalog
-              <div className="h-1 w-[560px] absolute bg-black left-72" />
+              <div className="h-1 w-[28vw] absolute bg-black left-[14vw]" />
             </span>
           </div>
         </div>
-        <div className="w-full h-full flex justify-center mb-20">
-          <div className="h-full grid grid-cols-[30%_70%] bg-blue m-10 rounded-[30px] relative">
-            <div className="left-side min-w-[300px] grid grid-rows-4 gap-10 mx-5 my-10">
+        <div className="w-full h-full  flex justify-center items-center mb-[4.5vw]">
+          <div className="h-full grid max-w-[52vw] grid-cols-[30%_70%] bg-blue m-[2.5vw] rounded-[2.5vw] relative">
+            <div className="left-side  grid grid-rows-4 gap-[2vw] mx-[1.25vw] my-[2.5vw]">
               <Image
                 onClick={() => setType("category")}
                 alt="papertube"
                 src="/images/AllRoundedBox/Rounded_box_28.jpg"
                 width={1400}
                 height={1400}
-                className={`w-full rounded-[30px] bg-light-gray-bg cursor-pointer ${
+                className={`w-full rounded-[2vw] bg-light-gray-bg cursor-pointer ${
                   type === "category" && "opacity-70"
                 }`}
               />
@@ -205,12 +208,12 @@ const FirstPage = () => {
                 src="/images/AllRoundedBox/Rounded_box_4.jpg"
                 width={1400}
                 height={1400}
-                className={`w-full rounded-[30px] bg-light-gray-bg cursor-pointer ${
+                className={`w-full rounded-[2vw] bg-light-gray-bg cursor-pointer ${
                   type === "bottleCap" && "opacity-70"
                 }`}
               />
               <div
-                className={`rounded-[30px] bg-light-gray-bg overflow-hidden  ${
+                className={`rounded-[2vw] bg-light-gray-bg overflow-hidden cursor-pointer  ${
                   type === "innerBottle" && "opacity-70"
                 } relative`}
               >
@@ -229,7 +232,7 @@ const FirstPage = () => {
                 src="/images/AllRoundedBox/Rounded_box_37.jpg"
                 width={1400}
                 height={1400}
-                className={`w-full rounded-[30px] bg-light-gray-bg cursor-pointer ${
+                className={`w-full rounded-[2vw] bg-light-gray-bg cursor-pointer ${
                   type === "outerBottle" && "opacity-70"
                 }`}
               />
@@ -242,23 +245,23 @@ const FirstPage = () => {
                   src={showImage}
                   width={800}
                   height={500}
-                  className="rounded-[30px] bg-light-gray-bg"
+                  className="rounded-[2vw] bg-light-gray-bg"
                 />
               ) : (
                 <Image
                   alt="papertube"
                   src={showImage}
-                  width={500}
+                  width={400}
                   height={500}
-                  className="rounded-[30px] bg-light-gray-bg"
+                  className="rounded-[2vw] bg-light-gray-bg"
                 />
               )}
             </div>
 
             <div
               className={`${
-                customColor === 4 ? "h-[550px]" : "h-[450px]"
-              } right-side absolute bottom-0 right-0 w-[240px] z-50 bg-light-gray-bg rounded-tl-[30px]`}
+                customColor === 4 ? "h-[30vw]" : "h-[23.4vw]"
+              } right-side absolute right-[-100px] bottom-[5vw] lg:bottom-0 lg:right-0 min-w-[100px] w-[8.3vw] z-50 bg-light-gray-bg rounded-tl-[2vw]`}
             >
               <div
                 className={`grid ${
@@ -275,7 +278,7 @@ const FirstPage = () => {
                           ...disabledStyles,
                         },
                       }}
-                      className="cursor-pointer w-20 h-16 rounded-[50px] bg-red"
+                      className="cursor-pointer w-[4.2vw] h-[3.3vw] rounded-[50px] bg-red"
                     />
                     <Button
                       onClick={() => setShowColor("brown")}
@@ -285,7 +288,7 @@ const FirstPage = () => {
                           ...disabledStyles,
                         },
                       }}
-                      className="cursor-pointer w-20 h-16 rounded-[50px] bg-brown"
+                      className="cursor-pointer w-[4.2vw] h-[3.3vw] rounded-[50px] bg-brown"
                     />
                   </>
                 ) : type === "innerBottle" ? (
@@ -297,7 +300,7 @@ const FirstPage = () => {
                         ...disabledStyles,
                       },
                     }}
-                    className="cursor-pointer w-20 h-16 rounded-[50px] bg-brown"
+                    className="cursor-pointer w-[4.2vw] h-[3.3vw] rounded-[50px] bg-brown"
                   />
                 ) : (
                   <>
@@ -309,7 +312,7 @@ const FirstPage = () => {
                           ...disabledStyles,
                         },
                       }}
-                      className="cursor-pointer w-20 h-16 rounded-[50px] bg-yellow"
+                      className="cursor-pointer w-[4.2vw] h-[3.3vw] rounded-[50px] bg-yellow"
                     />
                     <Button
                       onClick={() => setShowColor("gray")}
@@ -319,7 +322,7 @@ const FirstPage = () => {
                           ...disabledStyles,
                         },
                       }}
-                      className="cursor-pointer w-20 h-16 rounded-[50px] bg-gray"
+                      className="cursor-pointer w-[4.2vw] h-[3.3vw] rounded-[50px] bg-gray"
                     />
                   </>
                 )}
@@ -331,7 +334,7 @@ const FirstPage = () => {
                       ...disabledStyles,
                     },
                   }}
-                  className="cursor-pointer w-20 h-16 rounded-[50px] bg-black"
+                  className="cursor-pointer w-[4.2vw] h-[3.3vw] rounded-[50px] bg-black"
                 />
                 <Button
                   onClick={() => setShowColor("white")}
@@ -341,7 +344,7 @@ const FirstPage = () => {
                       ...disabledStyles,
                     },
                   }}
-                  className="w-20 h-16 rounded-[50px] cursor-pointer bg-white"
+                  className="w-[4.2vw] h-[3.3vw] rounded-[50px] cursor-pointer bg-white"
                 />
               </div>
             </div>
