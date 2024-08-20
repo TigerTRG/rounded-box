@@ -1,10 +1,10 @@
-import { Box, TextField } from "@mui/material";
+import { Box, Button, TextField } from "@mui/material";
 import React from "react";
 
 const Registration = () => {
   return (
     <div className="grid gap-12">
-      {/* <div className="w-full h-[150px] bg-dark-blue flex flex-row items-center justify-center">
+      <div className="w-full h-[150px] bg-dark-blue flex flex-row items-center justify-center">
         <span className="!text-white !text-[30px]">Register Layout</span>
       </div>
       <Box className="grid gap-4 w-[50%] m-10 mr-0 mt-2">
@@ -81,7 +81,13 @@ const Registration = () => {
             InputLabelProps={{ shrink: true }}
           />
         </div>
-      </Box> */}
+        <Button
+          className="grid w-full h-[62px] border-[1px] rounded-[5px] bg-dark-blue justify-center items-center"
+          sx={{ "&.MuiButton-root:hover": { bgcolor: "transparent" } }}
+        >
+          <span className="text-white">Submit</span>
+        </Button>
+      </Box>
     </div>
   );
 };

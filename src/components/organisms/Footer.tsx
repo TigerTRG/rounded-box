@@ -1,7 +1,17 @@
 import React from "react";
-import { Button } from "@mui/material";
+import { Button, Link } from "@mui/material";
 import styles from "../../styles/scss/headerButton.module.scss";
-import { PhoneEnabled, Email, CameraAltOutlined } from "@mui/icons-material";
+import Image from "next/image";
+import {
+  PhoneEnabled,
+  Email,
+  CameraAltOutlined,
+  Facebook,
+  Instagram,
+  YouTube,
+  Twitter,
+  X,
+} from "@mui/icons-material";
 
 const Footer = () => (
   <div className="flex flex-col md:flex-row w-full md:h-[260px] h-[500px] bottom-0 z-[9999] bg-orange relative">
@@ -47,15 +57,56 @@ const Footer = () => (
           </span>
         </div>
         <div className="flex gap-3">
-          <CameraAltOutlined
-            sx={{
-              minWidth: "30px",
-              minHeight: "30px",
-              color: "#ffffff !important",
-            }}
-            // className="color-[#fff] bg-white"
-          />
-          <span className="!text-light-gray-bg !text-[16px]">roundboxth</span>
+          <Link href="https://www.instagram.com/roundboxth/">
+            <Instagram
+              sx={{
+                minWidth: "30px",
+                minHeight: "30px",
+                color: "#ffffff !important",
+                cursor: "pointer",
+              }}
+            />
+          </Link>
+          <Link href="https://www.youtube.com/channel/UCQ3TvgfM6n_3lllQasOi5vA">
+            <YouTube
+              sx={{
+                minWidth: "30px",
+                minHeight: "30px",
+                color: "#ffffff !important",
+                cursor: "pointer",
+              }}
+            />
+          </Link>
+          <Link href="https://x.com/roundboxth">
+            <X
+              sx={{
+                minWidth: "30px",
+                minHeight: "30px",
+                color: "#ffffff !important",
+                cursor: "pointer",
+              }}
+            />
+          </Link>
+          <Link href="https://www.tiktok.com/@roundboxth?is_from_webapp=1&sender_device=pc">
+            <Image
+              src="/images/AboutUspage/tik-tok.png"
+              width={30}
+              height={30}
+              alt="Icon description"
+              className="w-[28px] h-[28px] cursor-pointer"
+              // color="#ffffff !important"
+            />
+          </Link>
+          <Link href="https://web.facebook.com/roundboxth/">
+            <Facebook
+              sx={{
+                minWidth: "30px",
+                minHeight: "30px",
+                color: "#ffffff !important",
+                cursor: "pointer",
+              }}
+            />
+          </Link>
         </div>
       </div>
       <span className="!text-light-gray-bg !text-[16px]">
