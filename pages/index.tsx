@@ -91,7 +91,7 @@ const FirstPage = () => {
     <div>
       <HomeLayout>
         <div className="w-full flex justify-center">
-          <div className="m-[4vw] h-full grid gap-[3.5vw] grid-cols-[1fr_1fr_1fr] justify-items-center items-center max-w-[80vw]">
+          <div className="m-[4vw] h-full grid gap-[3.5vw] grid-cols-[1fr_1fr_1fr] justify-items-center items-center max-w-[1024px]">
             <Image
               alt="roundedbox"
               src="/images/RoundedTextIcon/Rounded_text_4_cropped_nobg.png"
@@ -115,17 +115,17 @@ const FirstPage = () => {
             />
           </div>
         </div>
-        <div className="w-full h-[66vw] flex flex-col items-center relative ">
-          <div className="w-full max-w-[80vw] h-[36vw] bg-[#994703] p-[6vw] relative ">
+        <div className="w-full h-[66vw] max-h-[875px] flex flex-col items-center relative ">
+          <div className="w-full max-w-[1024px] max-h-[475px] h-[36vw] bg-[#994703] p-[6vw] relative ">
             <Image
               alt="papertube"
               src="/images/AllRoundedBox/Tubes_2.png"
               width={1400}
               height={1400}
-              className="max-w-[30vw] absolute right-0 top-0"
+              className="max-w-[380px] w-[30vw] absolute right-0 top-0"
             />
             <div className="grid grid-cols-[1fr_1fr] gap-[7.5vw] items-center w-full h-full">
-              <span className="!text-[1.6vw] !text-light-gray-bg">
+              <span className="!text-[1.6vw] !text-light-gray-bg lg:!text-[20px]">
                 เราคือผู้ผลิต แพ็คเกจจิ้งทรงกระบอก กระป๋องกลม กล่องกลม ครบวงจร
                 ออกแบบ ขึ้นตัวอย่าง ผลิต จนส่งถึงมือลูกค้า ในราคาที่เป็นมิตร
                 ด้วยประสบการณ์กว่า 35ปี จากอุตสาหกรรมการผลิตแกนกระดาษ
@@ -136,35 +136,35 @@ const FirstPage = () => {
                 src="/images/AllRoundedBox/Made_tube_cropped.jpg"
                 width={1400}
                 height={1400}
-                className="max-w-[24vw] z-50 absolute rounded-[1.5vw] top-[16vw] right-[6vw]"
+                className="max-w-[280px] w-[24vw] z-50 absolute rounded-[1.5vw] top-[16vw] right-[6vw] xl:right-[80px] xl:top-[240px]"
               />
             </div>
           </div>
-          <div className="w-full max-w-[80vw] h-[30vw] bg-[#1e4235] p-[6vw] relative">
+          <div className="w-full max-w-[1024px] max-h-[400px] h-[30vw] bg-[#1e4235] p-[6vw] relative">
             <Image
               alt="papertube"
               src="/images/AllRoundedBox/Tubes_2.png"
               width={1400}
               height={1400}
-              className="max-w-[30vw] absolute left-0 bottom-0 rotate-180"
+              className="max-w-[380px] w-[30vw] absolute left-0 bottom-0 rotate-180"
             />
             <Image
               alt="papertube"
               src="/images/RoundedIcon/Rounded_icon_7.png"
               width={700}
               height={700}
-              className="max-w-[30vw] absolute bottom-[20vw] left-[50%] translate-x-[-50%]"
+              className="max-w-[380px] w-[30vw] absolute bottom-[20vw] xl:bottom-[260px] left-[50%] translate-x-[-50%]"
             />
             <Image
               alt="papertube"
               src="/images/AllRoundedBox/Made_tube_cropped.jpg"
               width={1400}
               height={1400}
-              className="max-w-[24vw] z-50 absolute rounded-[1.5vw] bottom-[12vw] left-[6vw]"
+              className="max-w-[280px] w-[24vw] z-50 absolute rounded-[1.5vw] bottom-[12vw] left-[6vw] xl:left-[80px] xl:bottom-[160px]"
             />
             <div className="grid grid-cols-[1fr_1fr] gap-[7.5vw] items-center w-full h-full">
               <div />
-              <span className="!text-[1.6vw] !text-light-gray-bg">
+              <span className="!text-[1.6vw] !text-light-gray-bg lg:!text-[20px]">
                 ไลน์การผลิตในไทยที่แรกและที่เดียว
                 รับให้คำปรึกษาเรื่องแพคเกจจิ้งทรงกระบอก ไม่มีค่าใช้จ่าย
                 เสริมสร้างแบรนด์สินค้า
@@ -180,11 +180,11 @@ const FirstPage = () => {
               src="/images/RoundedIcon/Rounded_icon_4_cropped_nobg.png"
               width={200}
               height={200}
-              className="w-[12vw]"
+              className="w-[12vw] max-w-[130px]"
             />
-            <span className="!font-hel-rounded-bold !text-dark-blue !text-[10vw] relative ">
+            <span className="!font-hel-rounded-bold !text-dark-blue !text-[10vw] relative lg:!text-[120px]">
               Catalog
-              <div className="h-1 w-[28vw] absolute bg-black left-[14vw]" />
+              <div className="h-1 w-[28vw] max-w-[350px] absolute bg-dark-blue left-[14vw]" />
             </span>
           </div>
         </div>
