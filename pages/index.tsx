@@ -188,9 +188,9 @@ const FirstPage = () => {
             </span>
           </div>
         </div>
-        <div className="w-full h-full  flex justify-center items-center mb-[4.5vw]">
-          <div className="h-full grid max-w-[52vw] grid-cols-[30%_70%] bg-blue m-[2.5vw] rounded-[2.5vw] relative">
-            <div className="left-side  grid grid-rows-4 gap-[2vw] mx-[1.25vw] my-[2.5vw]">
+        <div className="w-full h-full flex ml-[8vw] lg:ml-0 lg:justify-center items-center mb-[4.5vw]">
+          <div className="w-[64vw] h-full grid max-w-[1000px] grid-cols-[25%_74%] lg:grid-cols-[25%_60%] bg-blue m-[2.5vw] rounded-[2.5vw] relative">
+            <div className="left-side grid grid-rows-4 gap-[2vw] mx-[1.25vw] my-[2.5vw] ">
               <Image
                 onClick={() => setType("category")}
                 alt="papertube"
@@ -232,13 +232,13 @@ const FirstPage = () => {
                 src="/images/AllRoundedBox/Rounded_box_37.jpg"
                 width={1400}
                 height={1400}
-                className={`w-full rounded-[2vw] bg-light-gray-bg cursor-pointer ${
+                className={`w-full rounded-[2vw]  bg-light-gray-bg cursor-pointer ${
                   type === "outerBottle" && "opacity-70"
                 }`}
               />
             </div>
 
-            <div className="middle-side flex items-center justify-center">
+            <div className="middle-side flex items-center  h-[42vw] max-h-[650px] justify-center">
               {type !== "innerBottle" ? (
                 <Image
                   alt="papertube"
@@ -253,7 +253,7 @@ const FirstPage = () => {
                   src={showImage}
                   width={400}
                   height={500}
-                  className="rounded-[2vw] bg-light-gray-bg"
+                  className="rounded-[2vw] h-[40vw] max-h-[650px] w-auto bg-light-gray-bg"
                 />
               )}
             </div>
@@ -261,7 +261,7 @@ const FirstPage = () => {
             <div
               className={`${
                 customColor === 4 ? "h-[30vw]" : "h-[23.4vw]"
-              } right-side absolute right-[-100px] bottom-[5vw] lg:bottom-0 lg:right-0 min-w-[100px] w-[8.3vw] z-50 bg-light-gray-bg rounded-tl-[2vw]`}
+              } right-side absolute right-[-100px] bottom-[9vw] lg:bottom-0 lg:right-0 min-w-[100px] w-[8.3vw] z-50 bg-light-gray-bg rounded-tl-[2vw]`}
             >
               <div
                 className={`grid ${

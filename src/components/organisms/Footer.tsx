@@ -29,7 +29,9 @@ const Footer = () => (
     </div>
     <div className="flex w-full flex-col gap-4 items-center justify-start my-3 ">
       <div className="flex flex-col gap-3">
-        <span className="!text-light-gray-bg !text-[40px]">Contact us</span>
+        <span className="!text-light-gray-bg text-center !text-[28px] sm:!text-[40px]">
+          Contact us
+        </span>
         <div className="flex gap-3">
           <PhoneEnabled
             sx={{
