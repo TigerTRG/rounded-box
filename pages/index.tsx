@@ -188,7 +188,7 @@ const FirstPage = () => {
             </span>
           </div>
         </div>
-        <div className="w-full h-full flex ml-[8vw] lg:ml-0 lg:justify-center items-center mb-[4.5vw]">
+        <div className="w-full h-full flex pl-[8vw] lg:ml-0 lg:justify-center items-center mb-[4.5vw]">
           <div className="w-[64vw] h-full grid max-w-[1000px] grid-cols-[25%_74%] lg:grid-cols-[25%_60%] bg-blue m-[2.5vw] rounded-[2.5vw] relative">
             <div className="left-side grid grid-rows-4 gap-[2vw] mx-[1.25vw] my-[2.5vw] ">
               <Image
