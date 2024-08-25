@@ -188,7 +188,7 @@ const FirstPage = () => {
             </span>
           </div>
         </div>
-        <div className="w-full h-full flex pl-[8vw] lg:ml-0 lg:justify-center items-center mb-[4.5vw]">
+        <div className="w-full h-full flex pl-[8vw] lg:pl-0 lg:justify-center items-center mb-[4.5vw]">
           <div className="w-[64vw] h-full grid max-w-[1000px] grid-cols-[25%_74%] lg:grid-cols-[25%_60%] bg-blue m-[2.5vw] rounded-[2.5vw] relative">
             <div className="left-side grid grid-rows-4 gap-[2vw] mx-[1.25vw] my-[2.5vw] ">
               <Image
@@ -261,7 +261,7 @@ const FirstPage = () => {
             <div
               className={`${
                 customColor === 4 ? "h-[30vw]" : "h-[23.4vw]"
-              } right-side absolute right-[-100px] bottom-[9vw] lg:bottom-0 lg:right-0 min-w-[100px] w-[8.3vw] z-50 bg-light-gray-bg rounded-tl-[2vw]`}
+              } right-side absolute right-[-100px] bottom-[6vw] lg:bottom-0 lg:right-0 min-w-[100px] w-[8.3vw] z-50 bg-light-gray-bg rounded-tl-[2vw]`}
             >
               <div
                 className={`grid ${

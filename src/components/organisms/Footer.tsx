@@ -18,11 +18,21 @@ const Footer = () => (
     <div
       className={`google-map relative md:absolute h-full w-full md:w-[20vw] min-w-[220px]`}
     >
-      <iframe
+      {/* <iframe
         className="w-full h-full"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.537570790497!2d100.49019301099148!3d13.746423686589216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e299057145cc81%3A0x7df49a08f511c22e!2sWat%20Phra%20Chetuphon%20Wimon%20Mangkhalaram%20Rajwaramahawihan!5e0!3m2!1sen!2sth!4v1717667196339!5m2!1sen!2sth"
         style={{ border: 0 }}
         // allowfullscreen={{}}
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe> */}
+      <iframe
+        className="w-full h-full"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.329701525899!2d100.4816293!3d13.637697400000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2a3ed5114933f%3A0x11c31b7496e5d50c!2zUm91bmQgYm94IOC4geC4o-C4sOC4muC4reC4geC5guC4m-C4quC5gOC4leC4reC4o-C5jCDguIHguKXguYjguK3guIfguIHguKXguKEg4LmB4Lie4LmH4LiE4LmA4LiB4LiI4LiI4Li04LmJ4LiH!5e0!3m2!1sen!2sth!4v1724602479334!5m2!1sen!2sth"
+        width="600"
+        height="450"
+        style={{ border: 0 }}
+        // allowfullscreen=""
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
