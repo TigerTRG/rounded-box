@@ -5,6 +5,7 @@ import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Button } from "@mui/material";
+import { Helmet } from "react-helmet";
 
 const FirstPage = () => {
   const [type, setType] = useState<string>("category");
@@ -90,6 +91,12 @@ const FirstPage = () => {
   return (
     <div>
       <HomeLayout>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Round Box</title>
+          <link rel="canonical" href="https://roundboxpkg.com" />
+          <meta name="description" content="Round Box" />
+        </Helmet>
         <div className="w-full flex justify-center">
           <div className="m-[4vw] h-full grid gap-[3.5vw] grid-cols-[1fr_1fr_1fr] justify-items-center items-center max-w-[1024px]">
             <Image
