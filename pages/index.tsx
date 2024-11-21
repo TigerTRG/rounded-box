@@ -140,7 +140,7 @@ const FirstPage = () => {
               </span>
               <Image
                 alt="papertube"
-                src="/images/AllRoundedBox/Made_tube_cropped.jpg"
+                src="/images/AllRoundedBox/Many_tubes_cropped.jpg"
                 width={1400}
                 height={1400}
                 className="max-w-[280px] w-[24vw] z-50 absolute rounded-[1.5vw] top-[16vw] right-[6vw] xl:right-[80px] xl:top-[240px]"
@@ -164,7 +164,7 @@ const FirstPage = () => {
             />
             <Image
               alt="papertube"
-              src="/images/AllRoundedBox/Made_tube_2_cropped.jpg"
+              src="/images/AllRoundedBox/Two_tubes_cropped.jpg"
               width={1400}
               height={1400}
               className="max-w-[280px] w-[24vw] z-50 absolute rounded-[1.5vw] bottom-[12vw] left-[6vw] xl:left-[80px] xl:bottom-[160px]"
